@@ -7,7 +7,7 @@ const Navbar = () => {
   const [openNav, setOpenNav] = useState<boolean>(false);
 
   return (
-    <header className="sticky top-0 bg-cyan-950 p-4">
+    <header className="fixed top-0 z-50 w-full bg-cyan-950 p-4">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between text-white">
         <div className="flex items-center gap-2">
           <img src={Logo} alt="logo" />
